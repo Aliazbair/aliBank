@@ -11,6 +11,7 @@ import {
   Stats,
   Testimonials,
 } from './components';
+import Applaction from './components/Applaction'
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
     {/* navbar */}
@@ -37,6 +38,7 @@ const App = () => (
         <Testimonials />
         <Clients />
         <CTA />
+        <Applaction/>
         <Footer />
       </div>
     </main>
