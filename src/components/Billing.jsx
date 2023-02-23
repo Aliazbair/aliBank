@@ -5,7 +5,12 @@ const Billing = () => {
     <section id='product' className={layout.sectionReverse}>
       {/* left */}
       <div className={layout.sectionImgReverse}>
-        <img src={bill} alt='' className='w-[100%] h-[100%] relative z-[5]' />
+        <img
+          src='https://res.cloudinary.com/dy9idapqa/image/upload/v1677155326/Ai/start-new-image-2_vr6n1h.webp'
+          alt=''
+          className='w-[100%] h-[100%] relative z-[5]'
+        />
+        {/* <img src={bill} alt='' className='w-[100%] h-[100%] relative z-[5]' /> */}
         {/* gradient start */}
         <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient' />
         <div className='absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient' />
